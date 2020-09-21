@@ -1,6 +1,10 @@
 ### listaCompras
 Proyecto para manejar listas de compras realizado con spring-boot.<br />
 
+correr main en: listaCompras/listacompras/src/main/java/com/sebastian/listacompras/ListacomprasApplication.java
+
+dirección: http://localhost:8080/
+
 Funcionalidades:<br />
   Agregar productos a una lista:<br />
     HTTP post request a /listas/{nombre de la lista}/productos/agregar, con un json en el body con:<br />
@@ -30,7 +34,7 @@ Funcionalidades:<br />
 
 Todo esto se realizó con una base de datos PostgreSQL:<br />
 
- src/main/java/com/sebastian/listacompras/db/BaseDeDatos.java:<br />
+ listaCompras/listacomprassrc/main/java/com/sebastian/listacompras/db/BaseDeDatos.java:<br />
 
    variables url, user, password para configurar la conexión.
 
